@@ -2,33 +2,39 @@
 
 <!-- README.md is generated from README.qmd. Please edit that file -->
 
-# Monash Letter Format Template
+# THUpolisci Letter Format Template
 
-This is a Quarto template that assists you in creating a letter on
-Monash University letterhead
+This Quarto template enables you to create letters using the Tsinghua
+University Political Science Department’s letterhead. It is developed
+based on the `numbats/monash-quarto-letter` template, adapted to fit the
+styling and formatting requirements of Tsinghua University.
 
 ## Creating a new letter
 
-You can use this as a template to create a letter. To do this, use the
-following command:
+To start a new letter with this template, execute the following command:
 
 ``` bash
-quarto use template numbats/monash-quarto-letter
+quarto use template syfyufei/THUpolisci-QuartoTemplete-letter
 ```
 
-This will install the extension and create an example qmd file that you
-can use as a starting place for your letter.
+This command will install the template and generate a sample `.qmd`
+file, which serves as a starting point for your letter.
 
 ## Installation for existing document
 
-You may also use this format with an existing Quarto project or
-document. From the quarto project or document directory, run the
-following command to install this format:
+If you want to apply this letter format to an existing Quarto project or
+document, navigate to the project or document’s directory and run the
+following command:
 
 ``` bash
-quarto install extension numbats/monash-quarto-letter
+quarto install extension syfyufei/THUpolisci-QuartoTemplete-letter
 ```
 
+This will integrate the Tsinghua University Political Science Department
+letter format into your existing Quarto document.
+
 ## Example
+
+Here is how the template looks when applied to a document:
 
 [![](examples/template.png)](examples/template.pdf)
